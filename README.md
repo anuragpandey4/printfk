@@ -161,3 +161,7 @@ The code has been tested on the following cases to ensure its functionality:
   - **Input**: `printfk("Large number: %ld\n", 123456789012345);`
   - **Expected Output**: "Large number: 123456789012345" followed by a newline (long integer).
   - ``This last test case give desired output in vim on wsl ubuntu but acts naughty on windows VS Code``
+
+ ## Conclusion
+This custom `printf` function serves as an introductory project to C programming for me, illustrating the use of variadic functions and system calls. It's a practical application of C's capabilities for someone with a background in JavaScript and sh*t load of skill issue in C. It was hard for me to be dependent on own for everything in this so called middle level language , high level languages like JavaScript makes everything easy to implement. I wouldn't say this custom implementation of printf function is anywhere near the OG moreover it it far less functional than it , I have used tricks to do stuff in it not high optimized (for eg. I was unable to use recursion in C everytime I get overflow error).Hence, please give me suggestions to improve it and learn more stuff about low level.
+
